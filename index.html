@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/Header/water.png" type="./img/Header/water.png">
+    <link rel="icon" href="./img/Header/water.png" type="image/png">
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
     <title>Hidrata Alerta - Home</title>
+
+    <script type="module" src="./script/nav.js" defer></script>
+
 </head>
+
 <body>
     <header id="mainHeader">
-        <nav>
-             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="./pages/solucao.html">Solução</a></li>
-                <li><a href="./pages/faq.html">Perguntas Frequentes</a></li>
-                <li><a href="./pages/contato.html">Contato</a></li>
-                <li><a href="./pages/integrantes.html">Integrantes</a></li>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="#" aria-current="Page">Home</a></li>
+                <li><a href="./pages/solucao.html" aria-label="Página de solução">Solução</a></li>
+                <li><a href="./pages/faq.html" aria-label="Perguntas frequentes">Perguntas Frequentes</a></li>
+                <li><a href="./pages/contato.html" aria-label="Página de contato">Contato</a></li>
+                <li><a href="./pages/integrantes.html" aria-label="Conheça nossos integrantes">Integrantes</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="banner">
+        <section class="banner">
             <h1>Hidrata Alerta </h1>
-        </div>
+        </section>
 
         <section id="section01">
             <h3>O que fazer em caso de desidratação?</h3>
+
             <p id="text01_sec03">
               Se você ou alguém estiver desidratado, é essencial agir rapidamente para repor os 
               líquidos e evitar complicações. Aqui estão algumas medidas importantes:
@@ -39,43 +43,43 @@
  
            <div id="container_info">
              <div id="container_left">
-                 <div class="box box_left">
+                 <article class="box box_left">
                      <p class="titulo">Beber água</p>
                      <p class="text">A hidratação é a chave. Se possível, tome pequenos goles de água regularmente.</p>
-                 </div>
-                 <div class="box box_left">
+                 </article>
+                 <article class="box box_left">
                      <p class="titulo">Soro caseiro</p>
                      <p class="text">1 litro de água, 1 colher de chá de sal e 1 colher de sopa de açúcar.</p>
-                 </div>
-                 <div class="box box_left">
+                 </article>
+                 <article class="box box_left">
                      <p class="titulo">Evitar bebidas alcoólicas</p>
                      <p class="text">Bebidas alcoólicas vão piorar a desidratação.</p>
-                 </div>
+                 </article>
               
              </div>
  
-             <div id="container_middle">
+             <figure id="container_middle">
                  <div id="back_container"></div>
                  <div id="dot_container"></div>
                  <img id="img03" src="./img/index/section01/agua01.jpg" alt="Foto de grupo de pessoas bebendo água">
                  <img id="img02" src="./img/index/section01/agua02.jpg" alt="Foto de senhora bebendo água">
                  <img id="img01" src="./img/index/section01/agua03.jpg" alt="Foto de garoto bebendo água">
                  <img id="img04" src="./img/index/section01/agua04.jpg" alt="Foto de garoto bebendo água">
-             </div>
+             </figure>
  
              <div id="container_right">
-                 <div class="box box_right">
+                 <article class="box box_right">
                      <p class="titulo">Descansar em local fresco</p>
                      <p class="text">Procure um lugar arejado e evite exposição ao sol.</p>
-                 </div> 
-                 <div class="box box_right">
+                 </article> 
+                 <article class="box box_right">
                      <p class="titulo">Consumir alimentos ricos em água</p>
                      <p class="text">Frutas como melancia, laranja e pepino podem ajudar na hidratação.</p>
-                 </div>
-                  <div class="box box_right">
+                 </article>
+                  <article class="box box_right">
                      <p class="titulo">Monitorar sintomas</p>
                      <p class="text">sinais graves como tontura intensa, confusão mental ou pele muito seca.</p>
-                 </div>
+                 </article>
              </div>
            </div>
          </section>
@@ -91,8 +95,9 @@
                     calor extremo e prevenir a insolação:
                 </p>
             </div>
+
             <div class="side_content">
-                <div class="inner_content">
+               <article class="inner_content">
                     <p class="sub_subtitle">1. Hidrate-se constantemente</p>
                     <ul>
                         <li><p>Beba muita água ao longo do dia, mesmo que não esteja com sede.</p></li>
@@ -100,64 +105,64 @@
                         <li><p> Consuma alimentos com alto teor de água, como frutas (melancia, laranja, melão).</p></li>
                     </ul>
                 
-                 </div>
+                </article>
              
-                 <div class="inner_content">
+                 <article class="inner_content">
                     <p class="sub_subtitle">2. Evite exposição direta ao sol</p>
                     <ul>
                         <li><p>Fique em locais sombreados ou com ventilação natural.</p></li>
                         <li><p>Se possível, não saia entre 10h e 16h, quando o sol está mais forte.</p></li>
                         <li><p>Use guarda-sol, bonés ou chapéus de aba larga.</p></li>
                     </ul>
-                 </div>
+                 </article>
              
-                 <div class="inner_content">
+                 <article class="inner_content">
                     <p class="sub_subtitle">3. Use roupas adequadas</p>
                     <ul>
                         <li><p>Prefira roupas claras, leves e folgadas.</p></li>
                         <li><p>Tecidos de algodão ajudam a pele a respirar melhor.</p></li>
                     </ul>
-                 </div>
+                 </article>
              
-                 <div class="inner_content">
+                 <article class="inner_content">
                     <p class="sub_subtitle">4. Use protetor solar</p>
                     <ul>
                         <li><p>Aplique um protetor solar com FPS 30 ou mais.</p></li>
                         <li><p>Reaplique a cada 2 horas, ou após suar ou entrar na água.</p></li>
                     </ul>
-                 </div>
+                 </article>
              
-                 <div class="inner_content">
+                 <article class="inner_content">
                     <p class="sub_subtitle">5. Refrigere o ambiente</p>
                     <ul>
                         <li><p>Use ventiladores, ar-condicionado ou métodos caseiros como toalhas úmidas.</p></li>
                         <li><p>Em casos extremos, vá a locais públicos climatizados, como shoppings ou bibliotecas.</p></li>
                     </ul>
-                 </div>
-            </div>
+                 </article>
+              </div>
             
              
         </section>
 
-        <section class="banner banner_img">
-            <img id="animacao_agua" src="./img/agua-animacao/aguaanimacao.gif" alt="Um animação gif de copo de aguga sendo esvaziado">      
-        </section>
+        <figure class="banner banner_img">
+            <img id="animacao_agua" src="./img/index/agua-animacao/aguaanimacao.gif" alt="Animação de copo de água sendo esvaziado">      
+        </figure>
 
         <section class="flex-inverted">
             <div class="side_title_content ">
                 <h3>SINAIS DE ALERTA DE INSOLAÇÃO (GOLPE DE CALOR)</h3>
 
                 <p>
-                A insolação é uma condição causada pela exposição excessiva ao sol e ao calor intenso, 
-                levando ao aumento da temperatura corporal, podendo desregular os mecanismos de transpiração,
-                 impedindo o corpo de se resfriar adequadamente. 
+                  A insolação é uma condição causada pela exposição excessiva ao sol e ao calor intenso, 
+                  levando ao aumento da temperatura corporal, podendo desregular os mecanismos de transpiração,
+                  impedindo o corpo de se resfriar adequadamente. 
                 </p>
 
             </div>
            
             <div class="side_content margin_itens_right">
-                 <div class="inner_content">
-                     <p class="sub_subtitle"> 1 . É considerada uma emergência médica. Fique atento a sinais como:</p>
+                 <article class="inner_content">
+                     <p class="sub_subtitle"> 1. É considerada uma emergência médica. Fique atento a sinais como:</p>
                       <ul>
                           <li><p>Temperatura corporal acima de 39°C</p></li>
                           <li><p>Pele quente, vermelha e seca (sem suor)</p></li>
@@ -167,9 +172,9 @@
                           <li><p>Náuseas ou vômito</p></li>
                           <li><p>Desmaio</p></li>
                       </ul>
-                  </div>
+                  </article>
               
-                  <div class="inner_content">
+                  <article class="inner_content">
                       <p class="sub_subtitle">2 . O que fazer em caso de insolação:</p>
                       <ul>
                           <li><p> Leve a pessoa para um lugar fresco e arejado imediatamente.</p></li>
@@ -178,7 +183,7 @@
                           <li><p> Dê água se a pessoa estiver consciente.</p></li>
                           <li><p> Procure ajuda médica urgente (ligue para o serviço de emergência).</p></li>
                       </ul>
-                  </div>
+                  </article>
             </div>
           
             
@@ -190,6 +195,5 @@
         <p>&copy; 2025 Hidrata Alerta. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="./script/nav.js"></script>
 </body>
 </html>

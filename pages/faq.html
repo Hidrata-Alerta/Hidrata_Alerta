@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/Header/water.png" type="./img/Header/water.png">
+    <link rel="icon" href="../img/Header/water.png" type="image/png">
     <link rel="stylesheet" href="../style/global.css">
     <link rel="stylesheet" href="../style/nav.css">
     <link rel="stylesheet" href="../style/footer.css">
@@ -11,17 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Hidrata Alerta - FAQ</title>
+    
+    <script type="module" src="../script/faq.js" defer></script>
+    <script type="module" src="../script/contato.js" defer></script>
 
 </head>
 <body>
     <header id="mainHeader">
-        <nav>
-             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/solucao.html">Solução</a></li>
-                <li><a href="#">Perguntas Frequentes</a></li>
-                <li><a href="../pages/contato.html">Contato</a></li>
-                <li><a href="../pages/integrantes.html">Integrantes</a></li>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="../index.html" aria-label="Página inicial">Home</a></li>
+                <li><a href="../pages/solucao.html" aria-label="Página de solução">Solução</a></li>
+                <li><a href="#" aria-current="page" aria-label="Perguntas frequentes">Perguntas Frequentes</a></li>
+                <li><a href="../pages/contato.html" aria-label="Página de contato">Contato</a></li>
+                <li><a href="../pages/integrantes.html" aria-label="Conheça nossos integrantes">Integrantes</a></li>
             </ul>
         </nav>
     </header>
@@ -100,7 +103,5 @@
     <footer>
         <p>&copy; 2025 Hidrata Alerta. Todos os direitos reservados.</p>
     </footer>
-    <script src="../script/faq.js"></script>
-    <script src="../script/nav.js"></script>
 </body>
 </html>
