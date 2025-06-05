@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Hidrata Alerta - Contato</title>
 
-    <script src="../script/nav.js" defer></script>
+    <script type="module" src="../script/nav.js" defer></script>
     <script type="module" src="../script/contato.js" defer></script>
     
 </head>
@@ -29,43 +29,61 @@
         </nav>
     </header>
 
-    <main>
-        <div class="banner">
+    <main aria-label="Conteúdo principal da solução Hidrata Alerta">
+        <section class="banner">
             <h1>Hidrata Alerta - Contato </h1>
-        </div>
+        </section>
 
-        <div id="main-container">
-            <div id="left-container">
+        <section id="main-container">
+            <article id="left-container">
                     <h3>Tem Alguma duvida?</h3>
                     <p class="p-text-01">Olá!
                         Estamos aqui para ajudar você. Caso tenha alguma dúvida, sugestão ou solicitação, por favor, deixe  
                         sua mensagem. Nossa equipe entrará em contato o mais rápido possível.
                     </p>
-
-                    <div class="tel">
+                    <address>
+                      <div class="tel">
                         <i class="fa-solid fa-phone"></i>
                         <p>(11)****34**1</p>
-                    </div>
-            </div>
+                      </div>
+                   </address>
+            </article>
 
 
             <form id="right-container">
                 <div id="double-container">
-                    <input id="primeiro_nome"type="text" placeholder="Nome*">
-                    <input id="sobre_nome"type="text" placeholder="Sobre nome*">
+
+                    <div class="input-group">
+                        <label for="primeiro_nome">Nome*</label>
+                        <input id="primeiro_nome" type="text" placeholder="Nome">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="sobre_nome">Sobrenome*</label>
+                        <input type="text" name="text" id="sobre_nome"  placeholder="Sobrenome" required>
+                    </div>
+
                 </div>
-
-                <input type="text" name="emai" id="email_id" placeholder="Email*">
-
-                <input type="text" name="tel" id="tel_id"  placeholder="Telefone(opcional)">
-
-                <textarea id="myTextarea" name="text_area" id="text_area_id" rows="10" maxlength="1000" placeholder="Type your text here"></textarea>
-
-               <button id="btn-enviar" aria-label="Butão de enviode contato">Enviar</button>
-
+            
+                <div class="input-group">
+                    <label for="email_id">Email*</label>
+                    <input type="email" name="email" id="email_id" placeholder="Email" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="tel_id">Telefone <span class="optional">(opcional)</span></label>
+                    <input type="tel" name="tel" id="tel_id" placeholder="Telefone">
+                </div>
+            
+                <div class="input-group">
+                    <label for="text_area_id">Mensagem*</label>
+                    <textarea id="text_area_id" name="text_area" rows="10" maxlength="1000" placeholder="Digite sua mensagem aqui" required></textarea>
+                </div>
+            
+                <button id="btn-enviar" type="submit" aria-label="Botão para enviar formulário de contato">Enviar</button>
             </form>
 
-        </div>
+        </section>
     </main>
 
     <footer>

@@ -12,6 +12,8 @@ header{
     margin-top: 0.5rem;
     z-index: 100;
     transition: 0.6s ease-in-out all;
+
+
 }
 
 
@@ -57,6 +59,7 @@ header{
     height: auto; 
     display: flex;
     place-items: start;
+    display: none;
 }
 
 
