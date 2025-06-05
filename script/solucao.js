@@ -2,7 +2,7 @@ const mensagem_texto_01 = document.getElementsByClassName("mensagem_texto_01")[0
 const mensagem_texto_02 = document.getElementsByClassName("mensagem_texto_02")[0]
 
 // Elementos para exibir cidade e temperatura
-const city = document.getElementsByClassName('City')[0]
+const city = document.getElementsByClassName('city')[0]
 const temp_numb = document.getElementsByClassName('temp_numb')[0]
 
 const API_KEY = "e01fb5f8a247e7ee3ea32a2a563b2791";

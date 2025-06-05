@@ -12,6 +12,8 @@ Na página Solução, na parte de cima mostra a temperatura atual, horário e di
 
 Na parte de validação do formulário, os inputs foram feitos com required, sendo assim, em caso de erros, há mensagens automáticas tanto do HTML quanto mensagens automáticas que foram programadas no JavaScript (solucao.js) e uma mensagem de sucesso em caso de preechimento correto.
 
+CSS está mínificado, responsividade feita incluindo a do menu.
+
 ## Tecnologias utilizadas
 - **HTML5**: Estrutura de conteúdo
 - **CSS3**: Estilização e layout
