@@ -2,6 +2,9 @@ const header = document.getElementById("mainHeader");
 const menuIcons = document.querySelectorAll("#container_icone_menu i");
 let ultimaRolagem = 0;
 
+document.querySelector(".fa-bars").style.display = "block";
+document.querySelector(".fa-times").style.display = "none";
+
 // Define o estado inicial para mobile
 if (window.innerWidth <= 600) {
     header.classList.add("hide");
